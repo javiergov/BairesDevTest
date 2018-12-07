@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B3FBF72321BB2A1D00F8C614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBF72221BB2A1D00F8C614 /* AppDelegate.swift */; };
-		B3FBF72521BB2A1D00F8C614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBF72421BB2A1D00F8C614 /* ViewController.swift */; };
+		B3FBF72521BB2A1D00F8C614 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBF72421BB2A1D00F8C614 /* FirstViewController.swift */; };
 		B3FBF72821BB2A1D00F8C614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FBF72621BB2A1D00F8C614 /* Main.storyboard */; };
 		B3FBF72A21BB2A1E00F8C614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FBF72921BB2A1E00F8C614 /* Assets.xcassets */; };
 		B3FBF72D21BB2A1E00F8C614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FBF72B21BB2A1E00F8C614 /* LaunchScreen.storyboard */; };
 		B3FBF73821BB2A1E00F8C614 /* CodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBF73721BB2A1E00F8C614 /* CodeTestTests.swift */; };
 		B3FBF74321BB2A1E00F8C614 /* CodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBF74221BB2A1E00F8C614 /* CodeTestUITests.swift */; };
+		B3FBF75121BB2AE500F8C614 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBF75021BB2AE500F8C614 /* SecondViewController.swift */; };
+		B3FBF75321BB2B5500F8C614 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBF75221BB2B5500F8C614 /* ThirdViewController.swift */; };
+		B3FBF75621BB2EA300F8C614 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBF75521BB2EA300F8C614 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		B3FBF71F21BB2A1D00F8C614 /* CodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FBF72221BB2A1D00F8C614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3FBF72421BB2A1D00F8C614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3FBF72421BB2A1D00F8C614 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		B3FBF72721BB2A1D00F8C614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3FBF72921BB2A1E00F8C614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3FBF72C21BB2A1E00F8C614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		B3FBF73E21BB2A1E00F8C614 /* CodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FBF74221BB2A1E00F8C614 /* CodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTestUITests.swift; sourceTree = "<group>"; };
 		B3FBF74421BB2A1E00F8C614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FBF75021BB2AE500F8C614 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B3FBF75221BB2B5500F8C614 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B3FBF75521BB2EA300F8C614 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3FBF75621BB2EA300F8C614 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 				B3FBF73621BB2A1E00F8C614 /* CodeTestTests */,
 				B3FBF74121BB2A1E00F8C614 /* CodeTestUITests */,
 				B3FBF72021BB2A1D00F8C614 /* Products */,
+				B3FBF75421BB2EA300F8C614 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				B3FBF72221BB2A1D00F8C614 /* AppDelegate.swift */,
-				B3FBF72421BB2A1D00F8C614 /* ViewController.swift */,
+				B3FBF72421BB2A1D00F8C614 /* FirstViewController.swift */,
+				B3FBF75021BB2AE500F8C614 /* SecondViewController.swift */,
+				B3FBF75221BB2B5500F8C614 /* ThirdViewController.swift */,
 				B3FBF72621BB2A1D00F8C614 /* Main.storyboard */,
 				B3FBF72921BB2A1E00F8C614 /* Assets.xcassets */,
 				B3FBF72B21BB2A1E00F8C614 /* LaunchScreen.storyboard */,
@@ -123,6 +133,14 @@
 				B3FBF74421BB2A1E00F8C614 /* Info.plist */,
 			);
 			path = CodeTestUITests;
+			sourceTree = "<group>";
+		};
+		B3FBF75421BB2EA300F8C614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3FBF75521BB2EA300F8C614 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FBF72521BB2A1D00F8C614 /* ViewController.swift in Sources */,
+				B3FBF75121BB2AE500F8C614 /* SecondViewController.swift in Sources */,
+				B3FBF72521BB2A1D00F8C614 /* FirstViewController.swift in Sources */,
+				B3FBF75321BB2B5500F8C614 /* ThirdViewController.swift in Sources */,
 				B3FBF72321BB2A1D00F8C614 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
